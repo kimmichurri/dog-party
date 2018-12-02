@@ -1,0 +1,168 @@
+
+/*allows padding and border to be contained within parameters of parent element*/
+
+* {
+  box-sizing: border-box;
+}
+
+/*body*/
+
+body {
+  font-family: Open sans, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*the navigation bar*/
+
+nav {
+  background-color: #75e2e6;
+  border: 2px solid #048eaa;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  width: 960px;
+}
+
+.dog-logo {
+  border: none;
+  float: left;
+  margin: 5px;
+  width: 40px;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  font-size: 15px;
+  margin: 20px;
+  padding: 0px;
+}
+
+
+/*hero-image */
+
+h1 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 85px;
+}
+
+.hero-dog {
+  margin-top: 25px;
+}
+
+section {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/park.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid;
+  height: 475px;
+  width: 960px;
+}
+
+form {
+  margin-left: 325px;  
+  margin-top: 15px;
+}
+
+input[type=text] {
+  border: #ffffff;
+  height: 40px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+label {
+  color: #ffffff;
+}
+
+/*paragraphs on dogs*/
+
+main {
+  background-color: #ffffff;
+  border: 2px solid #808080;
+  height: 575px;
+  width: 960px;
+}
+
+article {
+  background-color: #ffffff;
+  float: left;
+  height: 99%;
+  margin: 1.5px;
+  padding: 25px;
+  position: relative;
+  width: 33%;
+}
+
+h2 {
+  margin-top: 5px;
+  text-align: center;
+}
+
+/*footer at bottom of page*/
+
+footer {
+  background-color: #048eaa;
+  border: 1px solid #048eaa;
+  height: 175px;
+  width: 960px;
+}
+
+.social-connect-text {
+  color: #ffffff;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+/*images and icons*/
+
+img {
+  border: 5px solid #3F8DA8;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+
+.icons {
+  border: none;
+  border-radius: 0%;
+  display: inline;
+  height: 40px;
+  margin: 10px 5px;
+  width: 40px;
+}
+
+/*buttons */
+
+.submit-dog-name {
+  background-color: #92DFE5;
+  border: solid #92DFE5;
+  font-family: Open sans, sans-serif;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.question-button {
+  background-color: #3F8DA8;
+  border: solid #3F8DA8;
+  bottom: 25px;
+  color: #ffffff;
+  padding: 5px;
+  position: absolute;
+  width: 75%;
+}
